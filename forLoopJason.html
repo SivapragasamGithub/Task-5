@@ -1,0 +1,44 @@
+<html>
+    <head>Resume in JASON format</head>
+    <Body>
+        <Script>
+            let resume = {
+                name: "sivapragasam",
+                age:35,
+                place:"trichy",
+                Phone: "+918754780861",
+                Email: "qc.siva@gmail.com",
+                Skills:["Javascript","HTML"],
+                Companies: [
+                    {
+                        name: "HCL",
+                        years: 2,
+                        place: "Pondicherry",
+                    },
+                    {
+                        name: "micropack",
+                        Years: 2,
+                        place: "Bangalore",
+                    },
+                    {
+                        name: "Sony Electronics",
+                        Years: 6,
+                        Place: "Singapore",
+                    },
+                    {
+                        name: "Murata",
+                        Years: 5,
+                        place: "Singapore"
+                    }
+                ]
+            }
+
+            for (const key in resume){
+                console.log(`${key}):`);
+            }
+           
+
+
+        </Script>
+    </Body>
+</html>
